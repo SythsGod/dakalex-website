@@ -1,0 +1,73 @@
+/* CSS Document */
+
+html, body {
+	height: 100%;
+	width: 100%;
+
+	min-width: 1500px;
+
+	margin: 0;
+	padding: 0;
+
+	background: repeating-linear-gradient(
+		45deg,
+		#606dbc,
+		#606dbc 5px,
+		#465298 5px,
+		#465298 10px);
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto 0 auto;
+
+	padding-top: 50px;
+	}
+
+.image-container {
+	position: relative;
+	float: left;
+	}
+
+.image-block {
+	display: block;
+	width: calc(28% - 52px);
+
+	min-width: 300px;
+
+	padding: 25px 25px 25px 25px;
+	margin: 0 1.66% 0 1.66%;
+	margin-bottom: 50px;
+
+	float: left;
+
+	border: 1px solid white;
+	background: rgba(178, 178, 178, 0.4);
+}
+
+.image-block img {
+	display: block;
+
+	width: 100%;
+}
+
+#Beschrijv {
+	width: 86%;
+	text-align: justify;
+	float: left;
+	margin: 0;
+	margin-left: 7%;
+	}
+
+.title {
+	font-size: 1.8em;
+	margin-bottom: -10px;
+}
+
+.desc {
+	display: block;
+	width: 100%;
+	float: left;
+	margin-top: 30px;
+	margin-left: 5%;
+	}

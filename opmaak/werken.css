@@ -1,0 +1,83 @@
+/* CSS Document */
+
+@font-face { font-family: Abel; font-weight: normal; src: url('../../fonts/abel-regular.ttf'); }
+
+html, body {
+	width: 100%;
+	height: 100%;
+
+	min-width: 700px;
+
+	margin: 0;
+	padding: 0;
+
+	font-family: Abel;
+
+	background: #ffa500;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+.container {
+	position: relative;
+	display: flex;
+
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-around;
+
+	top: 50px;
+
+	width: 75%;
+
+	min-width: 530px;
+	min-height: 700px;
+
+	margin-left: 12.5%;
+	margin-bottom: 50px;
+
+	padding: 5px;
+}
+
+.workblock {
+	position: relative;
+	float: left;
+
+	width: 250px;
+	height: 300px;
+
+	margin: 5px;
+
+	/*margin-right: 50px;*/
+	/*margin-bottom: 50px;*/
+
+	background: #C33;
+}
+
+.workblock:hover {
+	background: #a32828;
+}
+
+.workblock:active {
+	background: #7a1e1e;
+}
+
+.image {
+	display: block;
+}
+
+.subtext {
+	display: block;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
