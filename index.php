@@ -28,9 +28,17 @@
 	</div>
 
 	<div class='content-divider'>
-		<div class='content-title'></div>
-		<div class='content-description'></div>
-		<div class='content-images'></div>
+		<div class='content-title'><span class='header-text'>EPDM Platform</span></div>
+		<div class='content-description'><span class='body-text'>Eerst zal volledig het platform worden opgekuist en droog gemaakt. Hierna worden isolatieplaten aangebracht met schroeven van 200mm met rondel (zie onderaan). Na het plaatsen van de platen worden alle afvoeren uit de platen gesneden. Vervolgens wordt de rubber opengelegd op het platform. Eens het volledig correct ligt wordt het stuk per stuk vast gelijmd. Na het lijmen van de rubber worden alle naden met flashing gedicht en steken we alle afvoeren. Als eventuele afwerking plaatsing wij ook nog een zinken krul rondom het platform (zie onderaan).</span></div>
+		<div class='content-container'>
+			<div class='content-table-container'>
+				<div class='content-flex-container'>
+					<image class='body-image' src='images/epdm_platform_1.jpg'/>
+					<image class='body-image' src='images/epdm_platform_2.jpg'/>
+					<image class='body-image' src='images/epdm_platform_3.jpg'/>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<div class='business-card'>
